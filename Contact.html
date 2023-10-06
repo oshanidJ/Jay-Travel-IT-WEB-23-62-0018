@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Contacts</title>
+
+    <style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: orangered;
+}
+
+header, .destinations, .contact, footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+header h1, h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.destinations ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.destinations li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+
+    
+
+
+
+    <header>
+        <h1>Jay Tours</h1>
+    </header>
+
+    <section class="destinations">
+        <h2>Top Destinations</h2>
+        <ul>
+            <li>SRI LANKA</li>
+            <li>ROME</li>
+            <li>MALDIVES</li>
+            <li>SWITZERLAND</li>
+            <li>THAILAND</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p style="color: white;">&copy; 2023 Jay Tours. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+    
+</body>
+</html>
